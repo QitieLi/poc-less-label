@@ -102,6 +102,9 @@ export default {
   manifest: {
     basePath: '/',
   },
+  // extraBabelPlugins: [
+  //   ["import", { "libraryName": "choerodon-ui", "libraryDirectory": "es", "style": "css" }]
+  // ],
 
   chainWebpack: webpackPlugin,
 };

@@ -41,6 +41,24 @@ export default [
           },
         ],
       },
+      // poc
+      {
+        path: '/poc',
+        name: 'poc',
+        icon: 'profile',
+        routes: [
+          // profile
+          // {
+          //   path: '/poc/orders',
+          //   name: 'orders',
+          //   component: './poc/Orders',
+          // },
+          {
+            path: '/poc/orders/:id',
+            component: './poc/Order',
+          },
+        ],
+      },
       // forms
       {
         path: '/form',
